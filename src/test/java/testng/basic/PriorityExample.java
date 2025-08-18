@@ -24,7 +24,7 @@ public class PriorityExample {
         System.out.println("Test Y");
     }
 
-    @Test(priority = 5, groups = {"p0"})
+    @Test(priority = 5)
     public void testT() {
         System.out.println("Test T");
     }
