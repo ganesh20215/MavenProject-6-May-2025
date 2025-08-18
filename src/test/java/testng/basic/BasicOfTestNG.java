@@ -10,13 +10,13 @@ public class BasicOfTestNG {
     public void testCase1(){
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.edso.in");
+		driver.close();
     }
 
     @Test(groups = {"p0"})
     public void testCase2(){
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.amazon.in");
-		driver.manage().windows().maximize();
         driver.close();
     }
 }

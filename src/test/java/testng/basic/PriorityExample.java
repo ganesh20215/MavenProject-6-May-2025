@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class PriorityExample {
 
-    @Test(priority = 1, enabled = false)
+    @Test(priority = 1)
     public void testZ() {
         System.out.println("Test Z");
     }
