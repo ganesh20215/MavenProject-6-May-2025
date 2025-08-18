@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="userName" value="standard_user"/>
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="browserName" value="edge"/>
+    <listeners>
+        <listener class-name="testng.retryfailscript.ConvinientWay"/>
+    </listeners>
+    <test verbose="10" preserve-order="true" parallel="false" thread-count="3" name="D:/repo1/clone/TestFolder/Demo/MavenProject-6-May-2025">
+        <classes>
+            <class name="testng.assertion.HardAssertExample"/>
+        </classes>
+    </test>
+</suite>

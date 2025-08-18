@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="secret_sauce"/>
+  <parameter name="browserName" value="edge"/>
+  <parameter name="userName" value="standard_user"/>
+  <listeners>
+    <listener class-name="testng.retryfailscript.ConvinientWay"/>
+  </listeners>
+  <test thread-count="5" name="D:/repo1/clone/TestFolder/Demo/MavenProject-6-May-2025(failed)">
+    <classes>
+      <class name="testng.assertion.HardAssertExample">
+        <methods>
+          <include name="verifyHardAssert_1"/>
+        </methods>
+      </class> <!-- testng.assertion.HardAssertExample -->
+    </classes>
+  </test> <!-- D:/repo1/clone/TestFolder/Demo/MavenProject-6-May-2025(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
