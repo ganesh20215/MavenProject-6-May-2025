@@ -26,7 +26,8 @@ public class PriorityExample {
 
     @Test(priority = 5)
     public void testT() {
-        
+        System.out.println("Test T");
     }
 }
+
 
